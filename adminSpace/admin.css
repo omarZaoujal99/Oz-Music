@@ -1,0 +1,205 @@
+*{
+    margin: 0%;
+    border: none;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+*:active,*:focus{
+    outline: none;
+}
+.PMsec1{
+    width: 100%;
+    min-height: 400px;
+    padding: 40px;
+    background-color: rgb(212, 212, 212);
+}
+.PMdiv1sec1{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    overflow: auto;
+}
+.h4Admin{
+    color: black;
+    font-family: serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.tablePM{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+.thPM{
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+td{
+    word-wrap: break-word;
+    border: 1px solid black;
+    padding: 10px 5px;
+    height: 50px;
+    width: 8%;
+    word-wrap: break-word;
+}
+.PMdiv2sec1{
+    margin-top: 30px;
+}
+.btnAddPro{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-family: serif;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s;
+}
+.btnAddPro:hover{
+    background-color: #003eba;
+}
+.divAddPro{
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    min-height: 200px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px gray;
+    text-align: center;
+    display: none;
+    transition: all 4s;
+}
+.h6PM{
+    font-family: serif;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.teAP,.inpAP{
+    resize: none;
+    width: 40%;
+    margin: 5px;
+    padding-inline-start: 10px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.teAP:hover,.inpAP:hover{
+    border-color: black;
+}
+.inpSubAdd{
+    width: 40%;
+    background-color: #003eba;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    font-family: serif;
+    font-weight: bold;
+    transition: all.2s;
+    padding-top:4px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+.inpSubAdd:hover{
+    background-color: black;
+}
+.btnCloseAddPro{
+    background-color: transparent;
+    color: #003eba;
+    margin-top: 5px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: serif;
+    transition: all .2s;
+    cursor: pointer;
+}
+.btnCloseAddPro:hover{
+    color: black;
+    cursor: pointer;
+}
+.divAddColor1{
+    z-index: 100;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    position: fixed;
+}
+.divAddColor2{
+    width: 60%;
+    min-height: 100px;
+    padding: 40px 20px;
+    background-color: white;
+    box-shadow: 0px 0px 5px gray;
+    text-align: center;
+    margin: 10% auto;
+}
+.selColor{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-top: 25px;
+    transition: all .2s;
+    margin-bottom: 15px;
+}
+.selColor:hover{
+    background-color: #003eba;
+}
+.picPro{
+    width: 80px;
+    height: 80px;
+    padding: 5%;
+    cursor: pointer;
+}
+.inpTablePro{
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+    border-radius: 5px;
+}
+.btnsCruid{
+    color: white;
+    width: 90px;
+    padding: 7px 0px;
+    font-weight: bold;
+    font-weight: bold;
+    transition: all .2s;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.btnsCruid:hover{
+    background-color: #003eba !important;
+}
+.areaDeqs{
+    overflow: hidden;
+    height: auto;
+    width: 300px;
+}
+.tableFilter{
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.selTablefilter{
+    background-color: rgb(238, 238, 238);
+    width: 200px;
+    border-radius: 5px;
+    padding-inline-start: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
